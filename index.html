@@ -686,9 +686,11 @@
       <div class="col-lg-6" style="background: url('./assets/images/House 1.png');background-repeat: no-repeat;background-size: contain;background-position: right;">
         <!-- <img src="" style="" class="img-fluid" alt="img" /> -->
       </div>
-      
-    </div>
-
+    </div>     
+      <div class="bg-white text-center pt-3 pb-3 primary-color" style="font-weight: 700;">
+        Copyright &copy; <span id="date"></span> Aderinola Segun || Fullstack Developer
+      </div>
+    
 </main>
 
 
@@ -739,6 +741,10 @@ $(".slider").slick({
   ]
 
 });  
+
+let dat = new Date();
+
+$("#date").html(dat.getFullYear());
 });
 </script>
 </body>
