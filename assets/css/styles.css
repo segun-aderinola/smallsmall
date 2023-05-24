@@ -182,6 +182,9 @@ nav {
     border-radius: 20px;
     text-decoration: none;
 }
+.small-small{
+    padding-left: 50px;font-size: 18px;font-weight: 700;
+}
 
 #list-style ul {
   list-style: none; /* Remove default bullets */
@@ -236,13 +239,39 @@ nav {
     margin-top: 0px;
   }
 }
+#edit-img{
+    height: 300px;
+    width: 300px;
+}
 @media screen and (max-width: 1200px) {
   .get-started {
     width: 50%;
   }
+  .small-small{
+    padding-left: 20px;font-size: 18px;font-weight: 700;
+
+}
+#edit-img{
+    height: 300px;
+    width: 500px;
+}
+#hide-img{
+    display: none;
+}
 }
 @media screen and (max-width: 375px) {
   #list-style #margin {
     margin-top: -45px;
   }
+  .small-small{
+    padding-left: 20px;font-size: 18px;font-weight: 700;
+
+}
+#edit-img{
+    height: 300px;
+    width: 500px;
+}
+#hide-img{
+    display: none;
+}
 }
